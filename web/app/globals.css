@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* subtle grain using layered dots */
+.bg-grain {
+  background-image:
+    radial-gradient(rgba(0, 0, 0, 0.10) 0.6px, transparent 0.6px),
+    radial-gradient(rgba(255, 255, 255, 0.35) 0.6px, transparent 0.6px);
+  background-position: 0 0, 1px 1px;
+  background-size: 3px 3px;
+}
